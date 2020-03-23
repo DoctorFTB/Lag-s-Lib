@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+issueTrackerURL="https://github.com/DoctorFTB/Lag-s-Lib/issues"
+[[mods]]
+modId="lagslib"
+version="${file.jarVersion}"
+displayName="Lag's Lib"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/lags-lib"
+credits=""
+authors="FTB_lag"
+description='''
+Simple lib for FTB_lag mods
+'''
+
+[[dependencies.lagslib]]
+    modId="forge"
+    mandatory=true
+    versionRange="[31,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.lagslib]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
